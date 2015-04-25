@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AED70901AEBA29900363EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AED708F1AEBA29900363EDD /* main.m */; };
+		5AED70931AEBA29900363EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AED70921AEBA29900363EDD /* AppDelegate.m */; };
+		5AED70961AEBA29900363EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AED70951AEBA29900363EDD /* ViewController.m */; };
+		5AED70991AEBA29900363EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AED70971AEBA29900363EDD /* Main.storyboard */; };
+		5AED709B1AEBA29900363EDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AED709A1AEBA29900363EDD /* Images.xcassets */; };
+		5AED709E1AEBA29900363EDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AED709C1AEBA29900363EDD /* LaunchScreen.xib */; };
+		5AED70AA1AEBA29900363EDD /* AvivaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AED70A91AEBA29900363EDD /* AvivaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AED70A41AEBA29900363EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AED70821AEBA29900363EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AED70891AEBA29900363EDD;
+			remoteInfo = Aviva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AED708A1AEBA29900363EDD /* Aviva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AED708E1AEBA29900363EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AED708F1AEBA29900363EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AED70911AEBA29900363EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AED70921AEBA29900363EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AED70941AEBA29900363EDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AED70951AEBA29900363EDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AED70981AEBA29900363EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AED709A1AEBA29900363EDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AED709D1AEBA29900363EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AED70A31AEBA29900363EDD /* AvivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AED70A81AEBA29900363EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AED70A91AEBA29900363EDD /* AvivaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvivaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AED70871AEBA29900363EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AED70A01AEBA29900363EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AED70811AEBA29900363EDD = {
+			isa = PBXGroup;
+			children = (
+				5AED708C1AEBA29900363EDD /* Aviva */,
+				5AED70A61AEBA29900363EDD /* AvivaTests */,
+				5AED708B1AEBA29900363EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AED708B1AEBA29900363EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AED708A1AEBA29900363EDD /* Aviva.app */,
+				5AED70A31AEBA29900363EDD /* AvivaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AED708C1AEBA29900363EDD /* Aviva */ = {
+			isa = PBXGroup;
+			children = (
+				5AED70911AEBA29900363EDD /* AppDelegate.h */,
+				5AED70921AEBA29900363EDD /* AppDelegate.m */,
+				5AED70941AEBA29900363EDD /* ViewController.h */,
+				5AED70951AEBA29900363EDD /* ViewController.m */,
+				5AED70971AEBA29900363EDD /* Main.storyboard */,
+				5AED709A1AEBA29900363EDD /* Images.xcassets */,
+				5AED709C1AEBA29900363EDD /* LaunchScreen.xib */,
+				5AED708D1AEBA29900363EDD /* Supporting Files */,
+			);
+			path = Aviva;
+			sourceTree = "<group>";
+		};
+		5AED708D1AEBA29900363EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AED708E1AEBA29900363EDD /* Info.plist */,
+				5AED708F1AEBA29900363EDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AED70A61AEBA29900363EDD /* AvivaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AED70A91AEBA29900363EDD /* AvivaTests.m */,
+				5AED70A71AEBA29900363EDD /* Supporting Files */,
+			);
+			path = AvivaTests;
+			sourceTree = "<group>";
+		};
+		5AED70A71AEBA29900363EDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AED70A81AEBA29900363EDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AED70891AEBA29900363EDD /* Aviva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AED70AD1AEBA29900363EDD /* Build configuration list for PBXNativeTarget "Aviva" */;
+			buildPhases = (
+				5AED70861AEBA29900363EDD /* Sources */,
+				5AED70871AEBA29900363EDD /* Frameworks */,
+				5AED70881AEBA29900363EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aviva;
+			productName = Aviva;
+			productReference = 5AED708A1AEBA29900363EDD /* Aviva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AED70A21AEBA29900363EDD /* AvivaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AED70B01AEBA29900363EDD /* Build configuration list for PBXNativeTarget "AvivaTests" */;
+			buildPhases = (
+				5AED709F1AEBA29900363EDD /* Sources */,
+				5AED70A01AEBA29900363EDD /* Frameworks */,
+				5AED70A11AEBA29900363EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AED70A51AEBA29900363EDD /* PBXTargetDependency */,
+			);
+			name = AvivaTests;
+			productName = AvivaTests;
+			productReference = 5AED70A31AEBA29900363EDD /* AvivaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AED70821AEBA29900363EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = chitra;
+				TargetAttributes = {
+					5AED70891AEBA29900363EDD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5AED70A21AEBA29900363EDD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5AED70891AEBA29900363EDD;
+					};
+				};
+			};
+			buildConfigurationList = 5AED70851AEBA29900363EDD /* Build configuration list for PBXProject "Aviva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AED70811AEBA29900363EDD;
+			productRefGroup = 5AED708B1AEBA29900363EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AED70891AEBA29900363EDD /* Aviva */,
+				5AED70A21AEBA29900363EDD /* AvivaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AED70881AEBA29900363EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AED70991AEBA29900363EDD /* Main.storyboard in Resources */,
+				5AED709E1AEBA29900363EDD /* LaunchScreen.xib in Resources */,
+				5AED709B1AEBA29900363EDD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AED70A11AEBA29900363EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AED70861AEBA29900363EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AED70961AEBA29900363EDD /* ViewController.m in Sources */,
+				5AED70931AEBA29900363EDD /* AppDelegate.m in Sources */,
+				5AED70901AEBA29900363EDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AED709F1AEBA29900363EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AED70AA1AEBA29900363EDD /* AvivaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AED70A51AEBA29900363EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AED70891AEBA29900363EDD /* Aviva */;
+			targetProxy = 5AED70A41AEBA29900363EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AED70971AEBA29900363EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AED70981AEBA29900363EDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AED709C1AEBA29900363EDD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AED709D1AEBA29900363EDD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AED70AB1AEBA29900363EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AED70AC1AEBA29900363EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AED70AE1AEBA29900363EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aviva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AED70AF1AEBA29900363EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aviva/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AED70B11AEBA29900363EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviva.app/Aviva";
+			};
+			name = Debug;
+		};
+		5AED70B21AEBA29900363EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvivaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aviva.app/Aviva";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AED70851AEBA29900363EDD /* Build configuration list for PBXProject "Aviva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AED70AB1AEBA29900363EDD /* Debug */,
+				5AED70AC1AEBA29900363EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AED70AD1AEBA29900363EDD /* Build configuration list for PBXNativeTarget "Aviva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AED70AE1AEBA29900363EDD /* Debug */,
+				5AED70AF1AEBA29900363EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AED70B01AEBA29900363EDD /* Build configuration list for PBXNativeTarget "AvivaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AED70B11AEBA29900363EDD /* Debug */,
+				5AED70B21AEBA29900363EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AED70821AEBA29900363EDD /* Project object */;
+}
